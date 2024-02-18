@@ -601,6 +601,11 @@ nav>ul>li>button:hover {
   .nav-item>button {
     display: none;
   }
+
+  .space-between-web {
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
 }
 
 .tranding-slide {
