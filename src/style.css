@@ -121,24 +121,24 @@ body {
   color: var(--hotPink);
   text-shadow: 2px 2px white;
 }
-#tranding {
+.tranding-section{
   padding: 4rem 0;
 }
 
 @media (max-width: 1440px) {
-  #tranding {
+  .tranding-section{
     padding: 7rem 0;
   }
 }
 
-#tranding .tranding-slider {
+.tranding-section .tranding-slider {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
 }
 
 @media (max-width: 500px) {
-  #tranding .tranding-slider {
+  .tranding-section .tranding-slider {
     height: 45rem;
   }
 }
