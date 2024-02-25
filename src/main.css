@@ -526,17 +526,27 @@ nav>ul>li>button:hover {
   text-shadow: 2px 2px white;
 }
 
-#tranding {
+.tranding-section {
   padding-top: 1rem;
 }
 
-#tranding .swiper-slide {
+.tranding-section .swiper-slide-prev {
   filter: blur(3px);
+
 }
 
-#tranding .swiper-slide-active {
+.tranding-section .swiper-slide-next {
+  filter: blur(3px);
+
+}
+
+.tranding-section .swiper-slide-active {
   filter: blur(0px) !important;
 
+}
+
+.tranding-section .swiper-wrapper {
+  left: 66px;
 }
 
 @media (max-width: 1440px) {
@@ -544,7 +554,7 @@ nav>ul>li>button:hover {
     padding: 0 4rem !important;
   }
 
-  #tranding {
+  .tranding-section {
     padding: 2rem 0;
   }
 
@@ -575,9 +585,18 @@ nav>ul>li>button:hover {
     font-size: 0.7rem;
   }
 
+  .tranding-section .swiper-wrapper {
+    left: 20px;
+  }
 }
 
-#tranding .tranding-slider {
+@media (max-width: 800px) {
+  .tranding-section .swiper-wrapper {
+    left: 110px;
+  }
+}
+
+.tranding-section .tranding-slider {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
@@ -586,7 +605,7 @@ nav>ul>li>button:hover {
 @media (max-width: 500px) {
 
   /* Mobile Size */
-  #tranding .tranding-slider {
+  .tranding-section .tranding-slider {
     height: 45rem;
   }
 
