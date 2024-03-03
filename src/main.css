@@ -604,6 +604,12 @@ nav>ul>li>button:hover {
   position: relative;
 }
 
+@media (min-width: 499px) {
+  .mobile-size {
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
 
   /* Mobile Size */
@@ -611,10 +617,16 @@ nav>ul>li>button:hover {
     display: none;
   }
 
+
   .navScroll {
     /* display: none; */
     background-color: rgb(255 237 146 / 0%);
     backdrop-filter: none;
+  }
+
+  .nav-mobile {
+    width: -webkit-fill-available;
+    /* height: 4rem !important; */
   }
 
   .tranding-section .tranding-slider {
@@ -671,21 +683,22 @@ nav>ul>li>button:hover {
   }
 
   .log-mobile {
-    top: 14px;
+    /* top: 14px; */
     /* left: 87%; */
     font-size: 1.5rem;
-    position: absolute;
+    /* position: absolute; */
     color: var(--brown);
   }
 
-  .row-mobile {
+  .navbar-mobile {
     border-radius: 11px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     background-color: rgb(255 255 255 / 53%);
-    height: 4rem;
+    /* height: 4rem; */
     position: relative;
-    top: 10px; 
+    top: 10px;
+    padding: 0 !important;
     transform: translateY(0.5rem);
     transition: transform 1000ms;
   }
