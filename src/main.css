@@ -310,6 +310,8 @@ hr {
   width: 100%;
   height: auto;
   object-fit: cover;
+  border: 0.5px solid var(--primary3);
+  border-radius: 26px;
   /* background-color: var(--primary4);  */
   background-image: linear-gradient(to bottom, #fdf9e0, #fdf9e0, #fdf9e0, #fdf9e0, #fdf9e0, #fdf9dd, #fdf8db, #fdf8d8, #fdf7d2, #fdf7cc, #fdf6c5, #fdf5bf);
 }
@@ -602,17 +604,39 @@ nav>ul>li>button:hover {
   position: relative;
 }
 
+@media (min-width: 499px) {
+  .mobile-size {
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
 
   /* Mobile Size */
+  .desktop-size {
+    display: none;
+  }
+
+
+  .navScroll {
+    /* display: none; */
+    background-color: rgb(255 237 146 / 0%);
+    backdrop-filter: none;
+  }
+
+  .nav-mobile {
+    width: -webkit-fill-available;
+    /* height: 4rem !important; */
+  }
+
   .tranding-section .tranding-slider {
     height: 45rem;
   }
 
   .logo {
-    width: 3rem;
+    width: 2rem;
     height: auto;
-    margin-top: 3px;
+    margin-top: 0px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -625,15 +649,7 @@ nav>ul>li>button:hover {
     justify-content: space-between;
     padding: 0 3rem;
   }
-}
 
-.tranding-slide {
-  width: 37rem;
-  height: 42rem;
-  position: relative;
-}
-
-@media (max-width: 500px) {
   .tranding-slide {
     width: 28rem !important;
     height: 36rem !important;
@@ -644,7 +660,59 @@ nav>ul>li>button:hover {
     height: 36rem !important;
   }
 
+  .text-on-top {
+    top: 30%;
+    left: 87%;
+    position: absolute;
+    color: var(--cream);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 0.5rem;
+  }
 
+  .logo-font {
+    font-size: 0.7rem !important;
+    color: var(--brown);
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .lg-pd-top {
+    padding: 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  .log-mobile {
+    /* top: 14px; */
+    /* left: 87%; */
+    font-size: 1.5rem;
+    /* position: absolute; */
+    color: var(--brown);
+  }
+
+  .navbar-mobile {
+    border-radius: 11px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 53%);
+    /* height: 4rem; */
+    position: relative;
+    top: 10px;
+    padding: 0 !important;
+    transform: translateY(0.5rem);
+    transition: transform 1000ms;
+  }
+
+
+  .container-mobile {
+    margin-top: 2rem;
+  }
+}
+
+.tranding-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
 }
 
 .tranding-slide .tranding-slide-img img {

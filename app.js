@@ -154,7 +154,7 @@ rawData.forEach(function (element, index) {
         `;
         // Append the inner swiper-slide to the inner swiper-wrapper
         innerSwiperWrapper.appendChild(innerSlide);
-        console.log(innerSlide)
+        // console.log(innerSlide)
     });
 
 
