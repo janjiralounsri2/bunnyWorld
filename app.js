@@ -59,7 +59,7 @@ rawData.forEach(function (element, index) {
                         <div class="row space-between-web">
                             <div
                                 class="col-xl-4 col-lg-4 col-sm-3 border-radius-article">
-                                <div class="card-article p-4">
+                                <div class="card-article">
                                     <h5
                                         class="letter-spacing-7 text-primary-web">
                                         Habitat</h5>
@@ -71,7 +71,7 @@ rawData.forEach(function (element, index) {
                             </div>
                             <div
                                 class="col-xl-4 col-lg-4 col-sm-3 border-radius-article">
-                                <div class="card-article p-4">
+                                <div class="card-article">
                                     <h5
                                         class="letter-spacing-7 text-primary-web">
                                         Jump Range</h5>
@@ -82,7 +82,7 @@ rawData.forEach(function (element, index) {
                             </div>
                             <div
                                 class="col-xl-4 col-lg-4 col-sm-3 border-radius-article">
-                                <div class="card-article p-4">
+                                <div class="card-article">
                                     <h5
                                         class="letter-spacing-7 text-primary-web">
                                         Running Speed</h5>
