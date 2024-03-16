@@ -617,6 +617,9 @@ nav>ul>li>button:hover {
     display: none;
   }
 
+  .py-bg-yl {
+    padding: 2rem 0rem;
+  }
 
   .navScroll {
     /* display: none; */
@@ -926,3 +929,50 @@ nav>ul>li>button:hover {
 .tranding-slider-control-top .swiper-pagination-top .swiper-pagination-bullet-active-top {
   background: var(--primary);
 }
+
+
+.typewriter2 {
+  /* width: fit-content !important; */
+  text-align: center;
+}
+
+.typewriter2 h1 {
+  width: fit-content;
+  color: var(--brown);
+  font-family: monospace;
+  font-weight: bold;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 25%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange
+  }
+}
+
+ 
