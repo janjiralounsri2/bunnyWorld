@@ -465,6 +465,7 @@ hr {
 }
 
 .card-article {
+  padding: 1.5rem;
   background-color: var(--white);
   width: 100%;
   height: 100%;
@@ -650,17 +651,17 @@ nav>ul>li>button:hover {
 
   .space-between-web {
     justify-content: space-between;
-    padding: 0 3rem;
+    padding: 0rem;
   }
 
   .tranding-slide {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 25rem !important;
+    height: 32rem !important;
   }
 
   .tranding-slide .tranding-slide-img img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 25rem !important;
+    height: 32rem !important;
   }
 
   .text-on-top {
@@ -710,6 +711,67 @@ nav>ul>li>button:hover {
   .container-mobile {
     margin-top: 2rem;
   }
+
+  .lg-pd-1 {
+    margin-bottom: 0rem;
+  }
+
+  .border-round-article-border {
+    width: 95px !important
+  }
+
+  .border-radius-article {
+    width: 100px !important;
+  }
+
+
+  .card-article {
+    padding: 1.5rem 1rem !important;
+
+    h5 {
+      font-size: 1.1rem !important;
+    }
+
+    h6 {
+      font-size: 1rem !important;
+    }
+  }
+
+  .tranding-section .swiper-wrapper {
+    left: 12px !important;
+  }
+
+  .bg-section-host {
+    margin: auto;
+  }
+
+  .text-title-host {
+    font-size: 2rem !important;
+    margin-top: 10px;
+  }
+
+  .xs-w-50 {
+    margin-top: 1.5rem !important;
+    margin: auto !important;
+    width: 50% !important;
+  }
+
+  .typewrite {
+    font-size: 1.2rem !important;
+  }
+
+  .text-mobile {
+    font-size: 1.1rem !important;
+  }
+}
+
+.xs-w-50 {
+  margin: auto !important;
+
+}
+
+.typewrite {
+  font-size: 1.5rem !important;
 }
 
 .tranding-slide {
@@ -974,5 +1036,3 @@ nav>ul>li>button:hover {
     border-color: orange
   }
 }
-
- 
