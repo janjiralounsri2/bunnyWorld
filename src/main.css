@@ -803,6 +803,17 @@ nav>ul>li>button:hover {
     height: 150px !important;
 
   }
+
+  .typewrite {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 310px) {
+
+  .border-radius-article {
+    width: 80px !important;
+  }
 }
 
 .text-title-1 {
