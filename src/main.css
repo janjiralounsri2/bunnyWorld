@@ -767,13 +767,18 @@ nav>ul>li>button:hover {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 350px) {
   .border-radius-article {
-    width: 100px !important;
+    width: 94px !important;
   }
 
-  .container-main{
+  .container-main {
     padding: 0 1rem !important;
+  }
+
+  .tranding-slider-control-top .swiper-button-prev-top {
+    left: 30% !important;
+    transform: translateX(0%) !important;
   }
 }
 
@@ -875,8 +880,8 @@ nav>ul>li>button:hover {
   transform: translateX(-65%) !important;
 }
 
-
 @media (max-width: 990px) {
+
   .tranding-slider-control .swiper-button-next {
     left: 70% !important;
     transform: translateX(-70%) !important;
@@ -886,21 +891,7 @@ nav>ul>li>button:hover {
     left: 70% !important;
     transform: translateX(-70%) !important;
   }
-}
 
-@media (max-width: 450px) {
-  .tranding-slider-control .swiper-button-next {
-    left: 80% !important;
-    transform: translateX(-80%) !important;
-  }
-
-  .tranding-slider-control-top .swiper-button-next-top {
-    left: 80% !important;
-    transform: translateX(-80%) !important;
-  }
-}
-
-@media (max-width: 990px) {
   .tranding-slider-control .swiper-button-prev {
     left: 30% !important;
     transform: translateX(-30%) !important;
@@ -912,18 +903,30 @@ nav>ul>li>button:hover {
   }
 }
 
+
 @media (max-width: 450px) {
-  .tranding-slider-control .swiper-button-prev {
-    left: 20% !important;
-    transform: translateX(-20%) !important;
+
+  .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
   }
 
+  .tranding-slider-control-top .swiper-button-next-top {
+    left: 70% !important;
+    transform: translateX(-45%) !important;
+  }
+
+  .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
 
   .tranding-slider-control-top .swiper-button-prev-top {
-    left: 20% !important;
-    transform: translateX(-20%) !important;
+    left: 30% !important;
+    transform: translateX(-58%) !important;
   }
 }
+
 
 .tranding-slider-control .slider-arrow {
   background: var(--white);
