@@ -609,7 +609,10 @@ nav>ul>li>button:hover {
   .mobile-size {
     display: none;
   }
+
+
 }
+
 
 @media (max-width: 500px) {
 
@@ -724,7 +727,6 @@ nav>ul>li>button:hover {
     width: 100px !important;
   }
 
-
   .card-article {
     padding: 1.5rem 1rem !important;
 
@@ -762,6 +764,16 @@ nav>ul>li>button:hover {
 
   .text-mobile {
     font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .border-radius-article {
+    width: 100px !important;
+  }
+
+  .container-main{
+    padding: 0 1rem !important;
   }
 }
 
