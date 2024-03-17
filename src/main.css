@@ -552,6 +552,10 @@ nav>ul>li>button:hover {
   left: 66px;
 }
 
+.container-main {
+  max-width: 1140px !important;
+}
+
 @media (max-width: 1440px) {
   .container {
     padding: 0 4rem !important;
@@ -609,8 +613,6 @@ nav>ul>li>button:hover {
   .mobile-size {
     display: none;
   }
-
-
 }
 
 
@@ -638,6 +640,7 @@ nav>ul>li>button:hover {
 
   .tranding-section .tranding-slider {
     height: 45rem;
+    padding-bottom: 0px;
   }
 
   .logo {
@@ -765,9 +768,25 @@ nav>ul>li>button:hover {
   .text-mobile {
     font-size: 1.1rem !important;
   }
+
+  .tranding-slider-control {
+    bottom: 42px !important;
+  }
+
+  .tranding-section {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 350px) {
+  .container-mobile {
+    margin-top: 1rem !important;
+  }
+
+  .text-title {
+    font-size: 3rem !important;
+  }
+
   .border-radius-article {
     width: 83px !important;
   }
@@ -813,6 +832,10 @@ nav>ul>li>button:hover {
 
   .border-radius-article {
     width: 80px !important;
+  }
+
+  .container-main {
+    padding: 0 0.3rem !important;
   }
 }
 

@@ -12,7 +12,7 @@ rawData.forEach(function (element, index) {
     // Set the HTML content of the outer swiper-slide
     outerSlide.innerHTML = ` 
         <div class="swiper-wrapper"> 
-        <div class="container container-main">
+        <div class="container-fluid container-main">
         <div class="row">
         <div class="col-12 pa-0">
             <!-- 1 -->
