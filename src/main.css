@@ -769,7 +769,7 @@ nav>ul>li>button:hover {
 
 @media (max-width: 350px) {
   .border-radius-article {
-    width: 94px !important;
+    width: 83px !important;
   }
 
   .container-main {
@@ -780,6 +780,34 @@ nav>ul>li>button:hover {
     left: 30% !important;
     transform: translateX(0%) !important;
   }
+
+  .text-pre-title {
+    margin-top: 1.5rem;
+  }
+
+  .text-title-1 {
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem !important;
+  }
+
+  .border-round-article-border {
+    width: 80px !important;
+  }
+
+  .border-round-article {
+    height: 100px !important;
+  }
+
+  .border-round-article-border {
+    height: 150px !important;
+
+  }
+}
+
+.text-title-1 {
+  padding-bottom: 1.5rem;
+
 }
 
 .xs-w-50 {

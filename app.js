@@ -24,7 +24,7 @@ rawData.forEach(function (element, index) {
                         </h5>
                     </div>
         
-                    <div class="col-12 pb-4">
+                    <div class="col-12">
                         <h2 class="text-title-1" id="name_data">
                         ${element.name}
                         </h2>
