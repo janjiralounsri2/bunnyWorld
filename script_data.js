@@ -203,12 +203,12 @@ var rawData = [
         },
         {
           id: 2,
-          title: "Grasses",
+          title: "Bark",
           img: "images/5_AR/F-2.png"
         },
         {
           id: 3,
-          title: "Bark",
+          title: "Grasses",
           img: "images/5_AR/F-3.png"
         },
        
