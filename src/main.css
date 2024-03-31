@@ -13,6 +13,7 @@
   cursor: pointer;
   /* font-family: "Montserrat", sans-serif; */
   font-family: 'Raleway', sans-serif;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 :root {
